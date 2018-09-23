@@ -1,11 +1,39 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+y",                "command": "editor.action.deleteLines",
-                                     "when": "editorTextFocus" },
-    { "key": "ctrl+d",                "command": "editor.action.copyLinesDownAction",
-                                     "when": "editorTextFocus" },
-    { "key": "ctrl+shift+z",          "command": "redo",
-                                     "when": "editorTextFocus" },
-    { "key": "ctrl+numpad_divide",  "command": "editor.action.commentLine",
-                                     "when": "editorTextFocus" }
+    {
+        "key": "ctrl+y",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "redo",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+numpad_divide",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.quit"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    }
 ]
