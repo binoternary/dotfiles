@@ -35,5 +35,25 @@
     {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "workbench.action.navigateBack"
     }
 ]
