@@ -40,6 +40,7 @@
     background_darkness = 0.85
     background_type = transparent
     cursor_color = "#aaaaaa"
+    scrollback_lines = 100000
     scrollbar_position = hidden
   [[solarized-dark]]
     background_color = "#002b36"
